@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This backend project is concerned in develop a API using Nodejs only to study the integration with databases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node node_modules/nodemon/bin/nodemon bin/server"
+  },
+  "keywords": [],
+  "author": "64j0",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.1",
+    "mongoose": "^5.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
